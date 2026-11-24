@@ -37,7 +37,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import clump  # noqa: E402
-from lean_signature import signature, telescope  # noqa: E402
+from lean_signature import KIND, matching, signature, telescope, top_level_split  # noqa: E402
 
 FIRST_RE = re.compile(r"\bfirst\s*\|\s*exact\s+@?([^\s|()\[\]{},]+)")
 TERM_RE = re.compile(r":=\s*(?:by\s+exact\s+)?@?([^\s|()\[\]{},]+)\s*$")
@@ -126,6 +126,26 @@ def written_names(full):
     return {".".join(parts[i:]) for i in range(len(parts))} | {"_root_." + full}
 
 
+def locally_bound_target(sig, target):
+    """A binder can shadow a global name, including the root of a field projection."""
+    if target.startswith("_root_."):
+        return False
+    root = target.split(".", 1)[0]
+    rest = sig.lstrip()
+    while rest and rest[0] in KIND:
+        end = matching(rest, 0)
+        if end is None:
+            return True  # retain anything the source parser cannot establish
+        group = rest[1:end - 1]
+        colon = top_level_split(group, ":")
+        if colon >= 0 or rest[0] != "[":
+            names = group[:colon] if colon >= 0 else group
+            if root in names.split():
+                return True
+        rest = rest[end:].lstrip()
+    return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("root")
@@ -169,15 +189,19 @@ def main():
         if any(i in PROTECTED for i in rev[m]):
             stats["protected"] += 1
             continue
-        if re.search(r"^variable\b", mod.body, re.M):
+        if re.search(r"^[ \t]*variable\b", mod.body, re.M):
             stats["variables"] += 1
             continue
         # Callers apply N exactly as they would apply X only if both take the same
         # sequence of explicit / implicit / instance arguments.
-        tn = telescope(signature(mod.body, written_names(n)) or "")
+        sig = signature(mod.body, written_names(n)) or ""
+        tn = telescope(sig)
         tx = telescope(signature(mods[index[x]].body, written_names(x)) or "")
         if tn is None or tx is None or tn != tx:
             stats["signature-mismatch-or-unparsed"] += 1
+            continue
+        if locally_bound_target(sig, tok):
+            stats["locally-bound-target"] += 1
             continue
         wrappers[m] = (n, x)
     name_to_mod = {n: m for m, (n, _) in wrappers.items()}
