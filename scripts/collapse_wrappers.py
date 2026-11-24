@@ -39,8 +39,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import clump  # noqa: E402
 from lean_signature import signature, telescope  # noqa: E402
 
-FIRST_RE = re.compile(r"\bfirst\s*\|\s*exact\s+@?([^\s|()\[\]{},]+)")
-TERM_RE = re.compile(r":=\s*(?:by\s+exact\s+)?@?([^\s|()\[\]{},]+)\s*$")
+TARGET = r"[^\s@|()\[\]{},;]+"
+FIRST_RE = re.compile(
+    rf"by\s+first\s*\|\s*exact\s+@?({TARGET})"
+    r"(?:\s*\|\s*exact\s+@?\1)?"
+    r"(?:\s*\|\s*\(\s*intros\s*;\s*apply\s+\1\s*<;>\s*assumption\s*\))?")
+TERM_RE = re.compile(rf"(?:by\s+exact\s+)?@?({TARGET})")
 OPEN_RE = re.compile(r"^open\s+(?:scoped\s+)?(.*?)(?:\s+in)?\s*(?:--.*)?$")
 IDENT_RE = re.compile(r"(@?)((?:[A-Za-z_À-￿][\w'!?À-￿]*\.)*[A-Za-z_À-￿][\w'!?À-￿]*)")
 PROTECTED = {"Main", "Statements", "Challenge"}
@@ -80,19 +84,28 @@ def find_wrapper(mod):
         return None
     if len(mod.decls) != 1:
         return None
+    if decl_lines[0].startswith("@["):
+        return None  # removing a declaration also removes attributes such as [simp]
     # everything at column 0 other than the declaration must be scaffolding
     for l in lines:
         if l[0] in " \t" or l is decl_lines[0] or clump.DECL_RE.match(l):
             continue
         if not ALLOWED_OTHER.match(l):
             return None
-    body = mod.body
-    m = FIRST_RE.search(body) or TERM_RE.search(body.strip())
+    # Inspect the entire declaration proof, not an `exact` nested in a larger proof
+    # (or appearing in a comment). Stop before column-0 namespace/section closers.
+    start = lines.index(decl_lines[0])
+    stop = next((i for i in range(start + 1, len(lines)) if lines[i][0] not in " \t"), len(lines))
+    declaration = "\n".join(lines[start:stop])
+    if declaration.count(":=") != 1:
+        return None
+    proof = declaration.split(":=", 1)[1].strip()
+    m = FIRST_RE.fullmatch(proof) or TERM_RE.fullmatch(proof)
     if not m:
         return None
     target = m.group(1)
     ns, opens = [], []
-    for l, n, o in contexts(body):
+    for l, n, o in contexts(mod.body):
         if clump.DECL_RE.match(l):
             ns, opens = n, o
             break
