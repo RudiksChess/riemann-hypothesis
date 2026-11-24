@@ -28,13 +28,16 @@ class HostProfile:
 
     def sample(self):
         while not self.stop.wait(.5):
-            values=counters(self.group)
-            for key,field in [('memory_current_bytes','memory_observed'),('tasks_current','tasks_observed')]:
-                value=values[key];old=getattr(self,field)
-                if value is not None:setattr(self,field,max(old or 0,value))
+            self.observe(counters(self.group))
+
+    def observe(self,values):
+        for key,field in [('memory_current_bytes','memory_observed'),('tasks_current','tasks_observed')]:
+            value=values[key];old=getattr(self,field)
+            if value is not None:setattr(self,field,max(old or 0,value))
 
     def finish(self,returncode):
         self.stop.set();self.thread.join();after=counters(self.group);wall=time.monotonic()-self.start
+        self.observe(after)
         before_cpu=self.before['cpu_usage_usec'];after_cpu=after['cpu_usage_usec']
         cpu=(after_cpu-before_cpu)/1e6 if before_cpu is not None and after_cpu is not None and after_cpu>=before_cpu else None
         return {'schema':1,'kind':'dedicated-host-cgroup-profile','wall_seconds':wall,'exit_status':returncode,
