@@ -240,32 +240,37 @@ def supervised_build(command, environment, log, filesystems, reserve_gib, visibl
         raise ValueError("insufficient free disk for the CI build reserve")
     process = subprocess.Popen(command, env=environment, stdout=log, stderr=subprocess.STDOUT,
                                start_new_session=True)
-    while True:
-        try:
-            code = process.wait(timeout=2)
-            sync_visible_log(log, visible_log)
-            return normalized_exit_code(code)
-        except KeyboardInterrupt:
-            log.write(b"\nCI controller: interrupted; stopping candidate and retaining raw work.\n")
-            log.flush()
-            stop_build_process(process, command, environment)
-            sync_visible_log(log, visible_log)
-            return 130
-        except subprocess.TimeoutExpired:
-            sync_visible_log(log, visible_log)
-            if timeout_seconds is not None and time.monotonic() - started >= timeout_seconds:
-                log.write(b"\nCI controller: quick-check budget expired; retaining partial work.\n")
+    try:
+        while True:
+            try:
+                code = process.wait(timeout=2)
+                sync_visible_log(log, visible_log)
+                return normalized_exit_code(code)
+            except KeyboardInterrupt:
+                log.write(b"\nCI controller: interrupted; stopping candidate and retaining raw work.\n")
                 log.flush()
                 stop_build_process(process, command, environment)
                 sync_visible_log(log, visible_log)
-                return 124
-            if all(shutil.disk_usage(path).free >= reserve for path in filesystems):
-                continue
-            log.write(b"\nCI controller: free disk fell below the reserve; terminating candidate.\n")
-            log.flush()
-            code = stop_build_process(process, command, environment)
-            sync_visible_log(log, visible_log)
-            return normalized_exit_code(code) or 143
+                return 130
+            except subprocess.TimeoutExpired:
+                sync_visible_log(log, visible_log)
+                if timeout_seconds is not None and time.monotonic() - started >= timeout_seconds:
+                    log.write(b"\nCI controller: quick-check budget expired; retaining partial work.\n")
+                    log.flush()
+                    stop_build_process(process, command, environment)
+                    sync_visible_log(log, visible_log)
+                    return 124
+                if all(shutil.disk_usage(path).free >= reserve for path in filesystems):
+                    continue
+                log.write(b"\nCI controller: free disk fell below the reserve; terminating candidate.\n")
+                log.flush()
+                code = stop_build_process(process, command, environment)
+                sync_visible_log(log, visible_log)
+                return normalized_exit_code(code) or 143
+    finally:
+        # Logging or monitoring can fail while the candidate is still running.
+        if process.poll() is None:
+            stop_build_process(process, command, environment)
 
 
 def git(root, *args):
