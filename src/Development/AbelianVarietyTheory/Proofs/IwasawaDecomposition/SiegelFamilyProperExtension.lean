@@ -46,7 +46,7 @@ import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SumMul
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap
 public import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsSeparatedOfIsQProjOver
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HomExtNormalSt
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import Formalism.LocalToGlobal.ProjectiveLattices.ErealAddIInf
 
 @[expose] public section

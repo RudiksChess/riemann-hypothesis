@@ -45,7 +45,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Tactic.Polynomial.Basic
 import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Sheaves.Init
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.HoweUnram
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.HoweUnram
 
 @[expose] public section
 

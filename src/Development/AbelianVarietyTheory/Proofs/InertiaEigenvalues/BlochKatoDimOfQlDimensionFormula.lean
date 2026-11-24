@@ -1,8 +1,8 @@
 module
 
 public import Formalism.SharpRestriction.LevelLetterCocycles.LocalSituation
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.RationalDualityOfAllCoefficients
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DeRhamPotSemistable
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.RationalDualityOfAllCoefficients
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.DeRhamPotSemistable
 import Mathlib.Algebra.Module.StablyFree.Basic
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

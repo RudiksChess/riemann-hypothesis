@@ -1,7 +1,7 @@
 module
 
 public import Formalism.SharpRestriction.LevelLetterCocycles.WildPro
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HasExponentZeroIff
 public import Formalism.SharpRestriction.LevelLetterCocycles.BlochKatoPhases
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

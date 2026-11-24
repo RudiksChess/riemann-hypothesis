@@ -3,7 +3,7 @@ module
 public import Development.AbelianVarietyTheory.Definitions.Divisors.JoinCastSucc
 public import Development.AbelianVarietyTheory.Definitions.Divisors.IsHeightIffOfDegreeEq
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyHomologyEquiv
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.TopSelfEqLengthOfSmooth
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.TopSelfEqLengthOfSmooth
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

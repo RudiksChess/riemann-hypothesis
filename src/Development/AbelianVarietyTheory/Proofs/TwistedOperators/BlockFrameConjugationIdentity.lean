@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinRepApply
 public import Development.AbelianVarietyTheory.Definitions.Divisors.InstCMHostS
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HarishChandraFinite
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HarishChandraFinite
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NormalFam
 public import Formalism.LocalToGlobal.IndefiniteReal.ConjSubConjSub
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateModelsMultiplicityEqual

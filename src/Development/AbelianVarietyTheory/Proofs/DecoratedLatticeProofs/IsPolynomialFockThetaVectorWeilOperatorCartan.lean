@@ -45,7 +45,7 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyEqOfIs
 import Development.AbelianVarietyTheory.Definitions.LatticeFrames.HeckeFormNSOfHeckeForm
 public import Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ComplexEmbeddingHermitianQuadrupleSum
 import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MixSDblDecZero
-import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelWeilUnitarySchrodinger
+import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.SiegelWeilUnitarySchrodinger
 
 @[expose] public section
 

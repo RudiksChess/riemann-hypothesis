@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsConstAlongSingleton
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantTermAlongSubset
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardParabolicUnipotentMono
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasurePreservingConj

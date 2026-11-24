@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SumFrameIdem
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 public import Development.AbelianVarietyTheory.Definitions.Divisors.LocallyCompactUnipFlag
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

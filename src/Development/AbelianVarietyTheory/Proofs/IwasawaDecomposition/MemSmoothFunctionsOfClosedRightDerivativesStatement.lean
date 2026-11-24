@@ -37,7 +37,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsQuadOfPlane
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsNormLeHeightPow
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ExistsNormLeHeightPow
 
 @[expose] public section
 

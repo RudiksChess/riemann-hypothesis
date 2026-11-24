@@ -5,7 +5,7 @@ public import Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNo
 public import Development.AbelianVarietyTheory.Definitions.Divisors.IsValCharTwist
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ToricSumEqHeckeLValueMulAuxiliaryFactors
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealPeriodLatticeOfCurveDatum
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HeckeTateFunctionalEquationCM
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HeckeTateFunctionalEquationCM
 import Formalism.LocalRingCardinality.SpanPowerMembership.ExampleLayerExistsGenerators
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

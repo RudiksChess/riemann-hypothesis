@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ParamsEx
 public import Formalism.LocalToGlobal.IndefiniteReal.LinksStage
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.HoweUnram
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.HoweUnram
 public import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.RealLowestKTypeCoeffSquareIntegrable
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperspecialFixesVacuaGoodInertPlace
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplicitySpaceEqZeroOfLowestKTypes

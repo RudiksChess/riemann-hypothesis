@@ -52,7 +52,7 @@ import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SumMul
 import Development.AbelianVarietyTheory.Definitions.Divisors.ExistsUnifOfIsMumfordOf
 import Development.AbelianVarietyTheory.Definitions.Divisors.FromBase
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 
 @[expose] public section

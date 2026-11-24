@@ -14,7 +14,7 @@ import Mathlib.AlgebraicGeometry.Morphisms.WeaklyEtale
 import Mathlib.AlgebraicGeometry.Sites.Fpqc
 import Mathlib.RingTheory.RegularLocalRing.Defs
 import CompanionTheory.AutomorphicTheory.TemperedLocalSpectra.ObstructionLifting.H1StructureDimLe
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsAdditiveOfUniversal
 
 @[expose] public section
 

@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilRepresentationExists
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.WeilRepresentationExists
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

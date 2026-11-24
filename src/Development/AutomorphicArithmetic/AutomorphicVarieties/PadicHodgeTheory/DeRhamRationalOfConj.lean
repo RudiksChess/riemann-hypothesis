@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.Distinct
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DeRhamPotSemistable
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.DeRhamPotSemistable
 public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PadicHodgePropertiesConjInvariant
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.FontaineParameterInvariantUnderConjugation
 import Mathlib.Algebra.Order.Floor.Extended

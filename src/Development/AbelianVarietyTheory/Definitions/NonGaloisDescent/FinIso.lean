@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
 public import Formalism.LocalToGlobal.GaloisLevelStructure.DefsAut
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

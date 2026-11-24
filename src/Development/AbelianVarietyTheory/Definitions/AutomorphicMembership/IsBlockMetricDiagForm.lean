@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.SecondCountableTopologyOfIsProjOver
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.DenseInterior
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.LieBridgeA
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.TangentVectorsUniversalBasis
 import Mathlib.Algebra.Order.Floor.Extended

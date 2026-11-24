@@ -42,7 +42,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyNormFinLeOne
 public import Development.AbelianVarietyTheory.Definitions.Foundations.ExistsAuxiliaryPlaceNotMemFinset
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GoodConstOfAniso
 import Development.WeilBound.ThetaLifts.Reductions.SiegelCore
 import Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes

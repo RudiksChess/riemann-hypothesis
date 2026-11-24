@@ -46,7 +46,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Sheaves.Init
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TateDualCrystalline
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.TateDualCrystalline
 import Formalism.FrobeniusOrbits.Statement
 
 @[expose] public section

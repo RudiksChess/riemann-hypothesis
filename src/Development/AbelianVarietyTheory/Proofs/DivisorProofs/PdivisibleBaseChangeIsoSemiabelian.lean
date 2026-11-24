@@ -1,9 +1,9 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 public import Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsGrpPullback
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CrystallinePull2SumCup
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CrystallinePull2SumCup
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

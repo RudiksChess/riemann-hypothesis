@@ -43,7 +43,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Sheaves.Init
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SiegelKlingenDeligneRibet
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.SiegelKlingenDeligneRibet
 
 @[expose] public section
 

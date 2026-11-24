@@ -4,7 +4,7 @@ public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTy
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsEquivOfMapEq
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Mono0OfLpDimEqOne
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.CharPolLpCharOfUnr
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FixedNeBotOfEquiv
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.FixedNeBotOfEquiv
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic
@@ -40,7 +40,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.GoodIdempotentFixesOfOnlySeriesOfLabelActs
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsRecLawsSuppUnitSurj
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DepthZeroInertia
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.DepthZeroInertia
 
 @[expose] public section
 

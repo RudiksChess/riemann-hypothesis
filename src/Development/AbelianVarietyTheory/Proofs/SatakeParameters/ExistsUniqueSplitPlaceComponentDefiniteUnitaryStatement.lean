@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsUniqueSplitPlaceComponentDefiniteUnitary
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
@@ -43,8 +43,8 @@ import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LocalP
 import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight
 import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic
 import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.RestrictsSelf
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HasExponentZeroIff
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TrivialOnInertiaOfUnr
 
 @[expose] public section
 

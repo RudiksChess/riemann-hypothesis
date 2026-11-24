@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsLinearHomPull
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.DenseInterior
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.LieBridgeA
 public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsBlockMetricDiagForm
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsUniqueAlgEquivOfCompatibleQuotient

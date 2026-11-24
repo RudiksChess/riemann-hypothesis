@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.IsMetricFrOfIsMetricOn
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurvatureMatrixPowProductEntrySmoothDbarClosed
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsTypeIsRealConst
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsTypeIsRealConst
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarOperatorLocalCalculusComplexForms
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmoothCoefficientFormsClosedUnderOperations
 import Mathlib.Algebra.Order.Floor.Extended

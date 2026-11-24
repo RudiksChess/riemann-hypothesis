@@ -39,7 +39,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EmbGLMemRealSU
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EmbGLMemRealSU
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.LiftFactorization
 
 @[expose] public section

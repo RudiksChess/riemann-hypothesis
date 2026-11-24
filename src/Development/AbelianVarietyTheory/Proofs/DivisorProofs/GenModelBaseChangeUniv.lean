@@ -53,7 +53,7 @@ import Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.FirstCohom
 import Development.AbelianVarietyTheory.Definitions.Degenerations.MorAlgSt
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompEqOneOfTransl
 import Development.AbelianVarietyTheory.Proofs.UniformizationProofs.LeOfPowLePolyMulPow
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HenselianLocalRingOfIsAdicComplete
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HenselianLocalRingOfIsAdicComplete
 
 @[expose] public section
 

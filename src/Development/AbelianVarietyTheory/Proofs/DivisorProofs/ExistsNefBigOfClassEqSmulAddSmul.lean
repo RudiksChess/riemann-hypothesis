@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsAlgClosedBaseChange
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.ExistsAlgClosedBaseChange
 import Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverIffIsProperAndExistsIsAmpleLB
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefIsPsEffAndBigTensNef
 import Mathlib.Algebra.Order.Floor.Extended
@@ -47,7 +47,7 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.IsLocalRingTrivSqZe
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsoOverOfIsOpenImmersion
 import Development.AbelianVarietyTheory.Definitions.Divisors.NormNegCmConstantEqAtAllEmbeddings
 public import Development.AbelianVarietyTheory.Definitions.Divisors.UnitaryWeightExponentVectorSignatureWeightMuZero
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsLogCanonicalMultipleCanonical
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsLogCanonicalMultipleCanonical
 import Formalism.LocalToGlobal.ProjectiveLattices.ErealAddIInf
 import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 

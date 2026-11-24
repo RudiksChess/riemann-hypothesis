@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ArFormExists
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqOfIsometricTrivShift
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.ArFormExists
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EqOfIsometricTrivShift
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.NontrivialIsomClassInt
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

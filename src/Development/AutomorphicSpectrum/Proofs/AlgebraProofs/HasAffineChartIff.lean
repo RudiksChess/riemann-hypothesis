@@ -41,7 +41,7 @@ import Mathlib.Tactic.NormNum.Ordinal
 import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
-import Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.RegularHypothesesAndConclusion
+import Development.AutomorphicSpectrum.PublishedTheorems.Algebra2.RegularHypothesesAndConclusion
 
 @[expose] public section
 

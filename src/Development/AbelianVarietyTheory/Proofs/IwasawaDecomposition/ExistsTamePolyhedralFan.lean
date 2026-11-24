@@ -39,7 +39,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Std.Tactic.BVDecide.Normalize.Prop
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HomExtNormalSt
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 
 @[expose] public section
 

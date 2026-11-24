@@ -2,8 +2,8 @@ module
 
 public import Development.WeilBound.RepresentationTheoryGL.EisensteinSeries.SiegelEisensteinContinuation.DictInf
 public import Development.AbelianVarietyTheory.Definitions.LatticeFrames.ContinuesConst
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelEisensteinContinuationOfDoublingMethod
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelWeilUnitarySchrodinger
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.SiegelEisensteinContinuationOfDoublingMethod
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.SiegelWeilUnitarySchrodinger
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

@@ -1,7 +1,7 @@
 module
 
 public import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.AffineGLForms.GenSpace
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsSpanFormsNeBot
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ExistsSpanFormsNeBot
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

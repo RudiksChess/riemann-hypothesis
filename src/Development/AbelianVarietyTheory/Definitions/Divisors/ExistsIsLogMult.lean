@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsLogCanonicalMultipleCanonical
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsLogCanonicalMultipleCanonical
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunctionFieldMapCompConstFn
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDivisorDominantPullbackWithClass
 import Mathlib.Algebra.Order.Floor.Extended

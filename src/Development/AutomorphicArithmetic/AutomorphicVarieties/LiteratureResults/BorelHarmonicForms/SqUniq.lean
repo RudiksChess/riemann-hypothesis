@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.BorelHarmonicForms.DerivativeRightTranslateL2
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsDiscreteOfIsNormalised
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.IsDiscreteOfIsNormalised
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.BorelHarmonicForms.EllFacts
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.BorelHarmonicForms.ExpOfDeriv
 import Mathlib.Algebra.Order.Floor.Extended

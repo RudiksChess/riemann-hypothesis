@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.WeightsConj
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.GelfandKazhdanDual
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.GelfandKazhdanDual
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.DualIsConjByOne
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.CuspContragredientIsCMConjTwistOfPairedInvTransp
 import Mathlib.Algebra.Order.Floor.Extended

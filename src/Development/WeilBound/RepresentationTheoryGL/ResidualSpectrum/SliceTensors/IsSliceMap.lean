@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsNormalisedOfIsDiscrete
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.IsNormalisedOfIsDiscrete
 public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SubsingletonRankZero
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.OneMemGoodCT
 public import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.AffineGLForms.BlockMatrixIdentity.BlockMatOne

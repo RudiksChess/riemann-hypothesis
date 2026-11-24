@@ -1,6 +1,6 @@
 module
 
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 public import Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogAddRpowMulLogPowLeRpow
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

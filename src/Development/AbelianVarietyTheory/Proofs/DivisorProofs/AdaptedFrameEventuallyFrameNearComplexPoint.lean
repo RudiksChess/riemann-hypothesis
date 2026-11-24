@@ -42,8 +42,8 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsMetricFrOfIsMetricOn
 import Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale
 import Development.AbelianVarietyTheory.Definitions.Divisors.LineSCShortExact
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.InterPolyProdSum
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsTypeIsRealConst
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.InterPolyProdSum
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsTypeIsRealConst
 
 @[expose] public section
 

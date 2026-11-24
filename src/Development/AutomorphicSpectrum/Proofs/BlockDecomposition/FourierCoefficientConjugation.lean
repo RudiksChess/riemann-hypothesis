@@ -3,7 +3,7 @@ module
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MeanTransport
 import Development.AbelianVarietyTheory.Proofs.HeightProofs.IsTopologicalRingAE
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsThetaFunctionIsotropicRestrictionNeZero
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.AdelicConjTransposeBlockMatrixTwoByTwoFin
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.AdelicConjTransposeBlockMatrixTwoByTwoFin
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierZeroHolds
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

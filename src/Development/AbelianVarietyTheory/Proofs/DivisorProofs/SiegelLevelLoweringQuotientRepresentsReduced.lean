@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.SRelOneOneIff
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 public import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.GoodClass
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteEtaleDeeperLevelSiegelCover
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSiegelObjectLoweredLevel

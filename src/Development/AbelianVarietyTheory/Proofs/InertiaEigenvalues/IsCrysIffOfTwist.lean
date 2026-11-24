@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.OneSubPhiOntoOfFilZero
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.OneSubPhiOntoOfFilZero
 public import Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.CrystallineSubrepresentation
 public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FontaineFormalismOfRegular
 import Mathlib.Algebra.Order.Floor.Extended

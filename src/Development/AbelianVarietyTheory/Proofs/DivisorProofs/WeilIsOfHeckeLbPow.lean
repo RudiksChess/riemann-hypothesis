@@ -48,7 +48,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Tactic.ReduceModChar
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.PrecompleteBases.PsbLb
 import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.GoodClass
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 
 @[expose] public section

@@ -43,7 +43,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Tactic.TypeStar
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.TateUnramifiedOfTorsionUnramified
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.TateUnramifiedOfTorsionUnramified
 
 @[expose] public section
 

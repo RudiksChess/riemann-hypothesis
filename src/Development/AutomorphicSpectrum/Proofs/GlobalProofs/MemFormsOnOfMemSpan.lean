@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HarishChandraFinite
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HarishChandraFinite
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsConstAlongSingleton
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.OfIsSmoothModerate
 public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GodementSectionSmoothBounded
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOfIsSm

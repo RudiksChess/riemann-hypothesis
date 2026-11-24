@@ -1,7 +1,7 @@
 module
 
 public import Formalism.LocalToGlobal.Divisibility.ConstantGeTwentyEight
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 public import Formalism.LocalToGlobal.Divisibility.LiftLatLemmas
 
 @[expose] public section

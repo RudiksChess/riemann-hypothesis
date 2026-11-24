@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAHOfIsFactorAH
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsHolFormConst
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsHolFormConst
 public import Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueThetaCharAtPoint
 import Development.AbelianVarietyTheory.Proofs.ToricGeometry.CubeTrivialisationOnUniformisingSpace
 public import Development.AbelianVarietyTheory.Proofs.ToricGeometry.RiemannFormBijectiveOfWeilNondeg

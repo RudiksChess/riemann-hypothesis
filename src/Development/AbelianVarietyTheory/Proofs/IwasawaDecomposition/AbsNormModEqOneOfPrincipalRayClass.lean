@@ -47,7 +47,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Std.Tactic.BVDecide.Normalize.Prop
 import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FixedCoefficientFieldInComplex
-import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.AlgebraMapNormOfBasisOneSqrt
+import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices2.AlgebraMapNormOfBasisOneSqrt
 import Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf
 
 @[expose] public section

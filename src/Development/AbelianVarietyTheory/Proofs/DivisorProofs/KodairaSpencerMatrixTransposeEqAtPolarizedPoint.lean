@@ -2,7 +2,7 @@ module
 
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.SabPull
 public import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsInvDer
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.DenseInterior
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.SecBaseChangeAnySt
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfForallField
 public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsLinearHomPull

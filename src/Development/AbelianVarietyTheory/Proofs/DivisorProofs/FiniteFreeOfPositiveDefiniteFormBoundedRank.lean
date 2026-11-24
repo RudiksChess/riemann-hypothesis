@@ -52,7 +52,7 @@ import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.Divisors.ExistsDimEqOne
 import Development.AbelianVarietyTheory.Definitions.Divisors.MapSmulOfIsHausdorff
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.TateUnramifiedOfTorsionUnramified
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.TateUnramifiedOfTorsionUnramified
 public import Mathlib.LinearAlgebra.Dimension.Free
 public import Mathlib.LinearAlgebra.FreeModule.PID
 import Mathlib.Topology.Sheaves.Presheaf

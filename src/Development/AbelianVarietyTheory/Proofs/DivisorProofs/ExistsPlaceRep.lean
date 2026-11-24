@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.AutomorphicFormsFiniteIdeal
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.AutomorphicFormsFiniteIdeal
 public import Mathlib.RingTheory.Derivation.Lie
 public import Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsEnvelopingAlgHomUnitaryLieAlgebra
 import Mathlib.Algebra.Order.Floor.Extended

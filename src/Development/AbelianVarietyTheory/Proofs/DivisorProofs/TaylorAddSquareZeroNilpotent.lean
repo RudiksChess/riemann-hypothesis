@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GaussManinPeriods
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.GaussManinPeriods
 public import Mathlib.RingTheory.MvPowerSeries.Derivative
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWordEqCoeff
 import Mathlib.Algebra.Order.Floor.Extended

@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelWeilUnitarySchrodinger
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilThetaConvergence
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.SiegelWeilUnitarySchrodinger
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.WeilThetaConvergence
 public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableStandardPairThetaWeilRange
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

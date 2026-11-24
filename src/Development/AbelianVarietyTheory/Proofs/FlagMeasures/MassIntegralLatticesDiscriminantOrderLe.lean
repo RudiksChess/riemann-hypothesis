@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary₂.MaxMass
+public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary2.MaxMass
 public import Mathlib.Analysis.SpecialFunctions.Log.Base
 public import Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ChartGen
 public import Formalism.HermitianLattices.StatementMass

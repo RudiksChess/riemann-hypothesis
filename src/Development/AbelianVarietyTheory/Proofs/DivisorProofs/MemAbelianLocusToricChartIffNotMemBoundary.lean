@@ -44,7 +44,7 @@ public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership
 import Development.AbelianVarietyTheory.Definitions.Divisors.HasDefect
 import Development.AbelianVarietyTheory.Definitions.Divisors.HasRigidChart
 public import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsInvDer
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.DenseInterior
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.LieBridgeA
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.LieBridgeB
 

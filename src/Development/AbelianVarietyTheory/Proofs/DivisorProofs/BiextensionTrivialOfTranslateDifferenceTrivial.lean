@@ -1,9 +1,9 @@
 module
 
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompEqOneOfTransl
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsAdditiveOfUniversal
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.NearIsIsoOfIsProperOfFinitePresentation
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 public import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.CubeTheoremHolds
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

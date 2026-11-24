@@ -1,7 +1,7 @@
 module
 
 public import Mathlib.RingTheory.DedekindDomain.AdicValuation.Completion
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HeckeTateFunctionalEquationCM
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HeckeTateFunctionalEquationCM
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

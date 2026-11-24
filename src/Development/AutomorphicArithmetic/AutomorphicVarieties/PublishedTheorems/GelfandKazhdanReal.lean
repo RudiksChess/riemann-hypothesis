@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.HasCohomology
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GaloisRepOfPolarizedCuspidal
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.GaloisRepOfPolarizedCuspidal
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.BlochKatoSelmerVanishes
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.Newform
 import Mathlib.Algebra.Order.Floor.Extended

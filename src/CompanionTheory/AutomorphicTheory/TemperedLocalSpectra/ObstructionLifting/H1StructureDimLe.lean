@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.ComparisonMemCechHodgeFiltration
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsAdditiveOfUniversal
 public import Mathlib.AlgebraicGeometry.Morphisms.QuasiFinite
 
 @[expose] public section

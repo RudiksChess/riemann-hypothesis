@@ -38,7 +38,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Std.Tactic.BVDecide.Normalize.Prop
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SiegelKlingenDeligneRibet
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.SiegelKlingenDeligneRibet
 import Development.AutomorphicSpectrum.Proofs.GlobalProofs.PartialSum
 
 @[expose] public section

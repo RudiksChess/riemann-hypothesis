@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.MulPullOfCubeOfSymm
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

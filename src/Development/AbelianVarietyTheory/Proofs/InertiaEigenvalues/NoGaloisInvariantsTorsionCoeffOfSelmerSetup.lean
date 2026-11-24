@@ -41,7 +41,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Std.Tactic.BVDecide.Normalize.Prop
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousCycMod
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ContinuousCycMod
 
 @[expose] public section
 

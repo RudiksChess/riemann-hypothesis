@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.DenseInterior
 public import Mathlib.Tactic.Monotonicity.Lemmas
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

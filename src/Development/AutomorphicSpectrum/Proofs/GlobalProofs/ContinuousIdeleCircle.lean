@@ -44,7 +44,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CompletedLStripBounds
 import Development.AbelianVarietyTheory.Definitions.Divisors.EntireEqOfHalfPlane
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HeckeTateFunctionalEquationCM
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HeckeTateFunctionalEquationCM
 
 @[expose] public section
 

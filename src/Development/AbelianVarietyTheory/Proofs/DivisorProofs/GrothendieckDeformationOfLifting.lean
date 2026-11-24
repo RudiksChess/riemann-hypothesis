@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GrothendieckDeformation
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.AbelianLifting
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.GrothendieckDeformation
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.AbelianLifting
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

@@ -2,7 +2,7 @@ module
 
 public import Formalism.LocalToGlobal.Columns.AlgebraMapMemMaximalIdealPowIff
 public import Formalism.SharpRestriction.CuspSpanNormBounds.RelevantZeroGramTerms
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 public import Formalism.LocalToGlobal.Columns.ColForms
 import Mathlib.Algebra.Order.Star.Rat
 import Formalism.LocalToGlobal.GlobalTheory.HLatOps

@@ -49,7 +49,7 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallSca
 import Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsRegularFnIffOfIsAffineOpen
 import Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsAddEquivOfSurjectiveOfKerIff
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValRSpMapFromSpecStalk
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.InterPolyProdSum
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.InterPolyProdSum
 public import Mathlib.MeasureTheory.Integral.IntegrableOn
 
 @[expose] public section

@@ -39,7 +39,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.Alternates
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 
 @[expose] public section
 

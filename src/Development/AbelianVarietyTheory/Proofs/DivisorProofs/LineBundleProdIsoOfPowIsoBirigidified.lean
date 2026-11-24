@@ -1,10 +1,10 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsAdditiveOfUniversal
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualAbelianSchemeExistsBiduality
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatSurjectiveQcPow
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdditiveLiftIff
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.CubeTheoremHolds
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
@@ -47,7 +47,7 @@ import Mathlib.Tactic.Polynomial.Basic
 import Mathlib.Tactic.ReduceModChar
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.AbelianSchemeGerms
 import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.GoodClass
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 
 @[expose] public section

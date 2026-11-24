@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary₂.DiscreteSeriesClassificationIff
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqExistsIffDsExists
+public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary2.DiscreteSeriesClassificationIff
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.DiscreteSeriesUpqExistsIffDsExists
 public import Development.AbelianVarietyTheory.Proofs.FlagMeasures.ConsequencesOfDsClass
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

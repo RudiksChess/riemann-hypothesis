@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.ContinuousResP
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsCoprimePowOfMemIneKer
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ExistsCoprimePowOfMemIneKer
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.V00
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
@@ -45,7 +45,7 @@ import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Algebra.ClopenNhdofOne
 import Mathlib.Topology.Connected.Separation
 import ReciprocityTheory.GaloisValuations.GlobalA
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TrivialOnInertiaOfUnr
 import Development.AutomorphicArithmetic.AutomorphicVarieties.SymplecticGSp4.MapRepApply
 import Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.RedIdeal
 import Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.UnipotentIdempotents.TCont

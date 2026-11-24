@@ -1,8 +1,8 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqExistsIffDsExists
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.DiscreteSeriesUpqExistsIffDsExists
 public import Formalism.LocalToGlobal.IndefiniteReal.LinksDefs
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DsExistsOfDiscreteSeriesExists
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.DsExistsOfDiscreteSeriesExists
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

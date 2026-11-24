@@ -1,7 +1,7 @@
 module
 
 public import ReciprocityTheory.Hypotheses.GalCohDefs
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.CohDimTwoLocalOfLocalFiniteness
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.CohDimTwoLocalOfLocalFiniteness
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

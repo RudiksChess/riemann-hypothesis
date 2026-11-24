@@ -4,7 +4,7 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilIs
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilCommutatorPairingTorsionGeometricPoint
 public import Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsGenMovePow
 import Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GlobalFnsHolds
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.CubeTheoremHolds
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

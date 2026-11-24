@@ -51,7 +51,7 @@ import Mathlib.Topology.Compactness.Paracompact
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.Divisors.SimpleTwistedTraceFormulaStable
 import Development.AbelianVarietyTheory.Definitions.Foundations.SmoothPartStable
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
 import Development.AutomorphicArithmetic.IntegralCasts.IsOpenStabOfMemNhds
 import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 

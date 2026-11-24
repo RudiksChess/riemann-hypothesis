@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic
 public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsStratHom
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GaloisRepOfPolarizedCuspidal
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.GaloisRepOfPolarizedCuspidal
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

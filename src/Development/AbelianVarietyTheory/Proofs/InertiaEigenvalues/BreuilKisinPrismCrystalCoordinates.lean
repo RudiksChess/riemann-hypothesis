@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BhattScholzeCrystallineLattices
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BhattScholzeCrystallineLattices
 public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIterateDerivative
 import Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Kernel
 import Mathlib.Algebra.Order.Floor.Extended

@@ -2,7 +2,7 @@ module
 
 public import Development.AutomorphicArithmetic.Foundations.UnitarySphericalFixing.SatakeParameters.AbsCentralAlt
 import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasSupportOfIsSubquotientProdIrr
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FixedNeBotOfEquiv
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.FixedNeBotOfEquiv
 public import Development.AutomorphicArithmetic.Foundations.LocalLanglands.LocalCentralUnits.ClBasic
 import Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi
 import Mathlib.Algebra.Order.Floor.Extended

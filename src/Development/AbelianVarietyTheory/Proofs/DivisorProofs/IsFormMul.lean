@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsTypeIsRealConst
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsTypeIsRealConst
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFormsMulClosed
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

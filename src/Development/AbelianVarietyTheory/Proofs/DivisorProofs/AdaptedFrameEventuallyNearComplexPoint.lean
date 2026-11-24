@@ -42,7 +42,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Definitions.Divisors.EndValuedForm11Coeffs
 import Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.InterPolyProdSum
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.InterPolyProdSum
 
 @[expose] public section
 

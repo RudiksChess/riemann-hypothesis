@@ -44,7 +44,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Definitions.Divisors.ToSpanSingletonConstGenInjective
-import Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.FarguesHodgeTate
+import Development.AutomorphicSpectrum.PublishedTheorems.Algebra2.FarguesHodgeTate
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst
 
 @[expose] public section

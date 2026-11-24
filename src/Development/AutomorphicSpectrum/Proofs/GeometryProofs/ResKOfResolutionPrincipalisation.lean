@@ -1,7 +1,7 @@
 module
 
-public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.ConclusionOfSmooth
-public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.NotSubsetOfDenseCompl
+public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry2.ConclusionOfSmooth
+public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry2.NotSubsetOfDenseCompl
 public import Mathlib.AlgebraicGeometry.Morphisms.Proper
 public import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.BlowupProjections.BlowupProjStatement
 public import Development.AutomorphicSpectrum.Proofs.GeometryProofs.CoordsStatement

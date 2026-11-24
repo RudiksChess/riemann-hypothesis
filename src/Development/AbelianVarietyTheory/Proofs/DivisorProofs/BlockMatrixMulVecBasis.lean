@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineToGAdDerivative
 import Mathlib.Algebra.Module.StablyFree.Basic
 import Mathlib.Algebra.Order.Floor.Extended

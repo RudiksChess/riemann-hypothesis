@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsSpanFormsNeBot
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ExistsSpanFormsNeBot
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.BcDefs
 public import GroundTheory.GlobalFields.IdeleGroups.IdeleNorms.BaseChange
 public import CompanionTheory.AutomorphicTheory.UnitriangularMeasure.AdeleCoordinateMeasure.EllipticTorusNorm

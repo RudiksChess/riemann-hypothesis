@@ -50,7 +50,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Definitions.Degenerations.MorAlgSt
 public import Development.AbelianVarietyTheory.Definitions.Degenerations.OfDerivationFnOn
 import Development.AbelianVarietyTheory.Proofs.UniformizationProofs.LeOfPowLePolyMulPow
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HenselianLocalRingOfIsAdicComplete
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HenselianLocalRingOfIsAdicComplete
 
 @[expose] public section
 

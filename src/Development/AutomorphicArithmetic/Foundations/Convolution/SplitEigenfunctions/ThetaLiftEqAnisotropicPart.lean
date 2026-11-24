@@ -2,7 +2,7 @@ module
 
 public import Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.ConjInv
 public import Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.ThetaBounds.UnfoldedThetaIntegralConvergesSimilitudeOne
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsNormalisedOfIsDiscrete
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.IsNormalisedOfIsDiscrete
 public import Development.AutomorphicArithmetic.Foundations.Convolution.RealGroupAnalysis.IsotypicQuotients.IsotypQuot
 public import GroundTheory.GlobalFields.TateThesis.IdeleMeasureQuotient
 import Mathlib.Algebra.Order.Floor.Extended

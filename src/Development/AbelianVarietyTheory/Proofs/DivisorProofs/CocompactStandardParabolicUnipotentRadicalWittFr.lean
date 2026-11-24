@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsConstAlongSingleton
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.StdParEqFlag
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

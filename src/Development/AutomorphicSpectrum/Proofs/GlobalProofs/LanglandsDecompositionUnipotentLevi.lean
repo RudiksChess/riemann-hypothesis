@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HarishChandraFinite
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HarishChandraFinite
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.StabiliserEqCentraliserCartan
 public import Formalism.LocalToGlobal.NumberFieldFamilies.ThetaCB
 import Mathlib.Algebra.Order.Floor.Extended
@@ -40,7 +40,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.OfIsSmoothModerate
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsConstAlongSingleton
 import Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds
 import Development.AutomorphicSpectrum.Proofs.GlobalProofs.FiniteDimensionalOfSlices
 import Development.AutomorphicSpectrum.Proofs.GlobalProofs.MemFormsOnOfMemSpan

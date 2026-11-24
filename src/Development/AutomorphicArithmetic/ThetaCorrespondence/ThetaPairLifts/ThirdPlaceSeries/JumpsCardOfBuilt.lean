@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ThetaDataExists
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HtCard
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HtCard
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.JumpsCardOfBuilt
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

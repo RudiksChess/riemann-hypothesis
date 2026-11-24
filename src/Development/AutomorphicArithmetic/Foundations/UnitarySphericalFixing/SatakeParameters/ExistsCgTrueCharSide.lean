@@ -8,7 +8,7 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClsLocEqOfIs
 public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRecordCgTrueT
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InfCharOfCharOfHasInfQ
 import Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFixedIff
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsSteinberg
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ExistsSteinberg
 import Formalism.SharpRestriction.CuspSpanNormBounds.BlockEstimateWords
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

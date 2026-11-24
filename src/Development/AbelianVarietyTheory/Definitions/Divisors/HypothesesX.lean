@@ -1,9 +1,9 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ToroidalCompactificationBis
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.InterNumDetNonposSplitTorus
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GreenCuspidalIff
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PointSeparationPair
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.ToroidalCompactificationBis
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.InterNumDetNonposSplitTorus
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.GreenCuspidalIff
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.PointSeparationPair
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

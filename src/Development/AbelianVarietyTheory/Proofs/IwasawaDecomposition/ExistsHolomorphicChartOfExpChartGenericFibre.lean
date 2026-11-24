@@ -3,7 +3,7 @@ module
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsIsLieBase
 public import Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgePeriodGram
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PerValNeZero
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.InterPolyProdSum
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.InterPolyProdSum
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

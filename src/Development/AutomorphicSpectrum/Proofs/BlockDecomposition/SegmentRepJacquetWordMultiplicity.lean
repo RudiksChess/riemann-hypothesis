@@ -1,7 +1,7 @@
 module
 
 public import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.ZelevinskyJacquet.ZelevinskyCosocles.LUnlinkedComm
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IrreducibleAdmissibleGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IrreducibleAdmissibleGL
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.CuspidalJacquetSubquotientAtMostOneNonemptyBlock
 import Development.AbelianVarietyTheory.Proofs.TwistedOperators.JhMultSubAddQuot
 import Mathlib.Algebra.Order.Floor.Extended

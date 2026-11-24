@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.WignerVanishingGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.WignerVanishingGL
 import Formalism.RealPlaceAnalysis.ThirdArithmeticHolds
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

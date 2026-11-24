@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqZeroOfCobOneEqZero
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EqZeroOfCobOneEqZero
 public import Mathlib.LinearAlgebra.FreeModule.PID
 public import Mathlib.RingTheory.Flat.TorsionFree
 public import Mathlib.RingTheory.SimpleRing.Principal

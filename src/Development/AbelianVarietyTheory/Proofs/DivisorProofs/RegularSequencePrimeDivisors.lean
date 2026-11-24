@@ -45,7 +45,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 public import ReciprocityTheory.AnalyticForms.RegularLocalRings.ClosureFromSpecMemCompsH
 import ReciprocityTheory.AnalyticForms.RegularLocalRings.Monomial
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsEtCoord
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsLogCanonicalMultipleCanonical
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsLogCanonicalMultipleCanonical
 
 @[expose] public section
 

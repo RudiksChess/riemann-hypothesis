@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 public import Development.AbelianVarietyTheory.Proofs.ModuliProofs.ClsLinCombSingle
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
@@ -50,8 +50,8 @@ import Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasLatticesComplete
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntEmbCoe
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDeRhamSheafIffAlt
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.RestrictsTo
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqZeroOfCobOneEqZero
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EqZeroOfCobOneEqZero
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsAdditiveOfUniversal
 
 @[expose] public section
 

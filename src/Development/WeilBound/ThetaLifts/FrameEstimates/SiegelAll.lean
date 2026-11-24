@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 public import Development.WeilBound.ThetaLifts.FrameEstimates.SquareIntegrableWeilRange
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModerateGrowthOfHasCompactSupport
 public import Development.WeilBound.ThetaLifts.FrameEstimates.LeHeightOfIsTorusElt

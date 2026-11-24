@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsPrimitiveRootPow
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ExistsPrimitiveRootPow
 public import Formalism.GaloisCohomology.LocalTateDualityK
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.LengthEqLengthInvariantsOfTorsionLevels
 import Mathlib.Algebra.Order.Floor.Extended

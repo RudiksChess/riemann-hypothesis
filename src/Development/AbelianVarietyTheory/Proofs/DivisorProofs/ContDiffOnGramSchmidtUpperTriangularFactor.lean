@@ -43,7 +43,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.DetSubUpper
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.PhaseFrame
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EmbGLMemRealSU
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EmbGLMemRealSU
 
 @[expose] public section
 

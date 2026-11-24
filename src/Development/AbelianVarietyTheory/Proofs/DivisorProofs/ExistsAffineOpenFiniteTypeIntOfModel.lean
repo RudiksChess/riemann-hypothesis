@@ -44,7 +44,7 @@ import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SumMul
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsUnimodMod
 import Development.AbelianVarietyTheory.Definitions.Divisors.SharpOverIff
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import ReciprocityTheory.AnalyticForms.RegularLocalRings.JacChartA
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 

@@ -56,7 +56,7 @@ import Mathlib.Topology.Algebra.ProperAction.Basic
 import Mathlib.Topology.Compactness.Paracompact
 import Mathlib.Topology.Connected.Separation
 import Mathlib.Topology.MetricSpace.Ultra.TotallySeparated
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TrivialOnInertiaOfUnr
 import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicCases.AutomorphyClauseStatement
 import Mathlib.Algebra.Azumaya.Basic
 public import Formalism.SharedLemmas.TotDiscQuot

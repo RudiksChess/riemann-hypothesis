@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousCycMod
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsCoprimePowOfMemIneKer
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ContinuousCycMod
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ExistsCoprimePowOfMemIneKer
 public import Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.CyclotomicTotient.OneAddPow
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
@@ -51,7 +51,7 @@ import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTameInert
 import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Small2
 import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsPlaceOverMoveValCc
 import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.VecPairApply
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.PoitouTateNineTermTransgressionZeroApply
 import Formalism.SharpRestriction.LevelLetterCocycles.BlochKatoPhases
 
 @[expose] public section

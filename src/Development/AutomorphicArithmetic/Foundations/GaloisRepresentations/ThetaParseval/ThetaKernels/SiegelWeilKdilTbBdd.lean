@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ThetaParseval.ThetaKernels.SiegelWeilKdilSteps
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 public import Development.WeilBound.RepresentationTheoryGL.EisensteinSeries.SiegelEisensteinContinuation.IsEpCont
 public import Development.WeilBound.ThetaLifts.LatticeBasics.FdEqZero
 public import Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ThetaParseval.ThetaKernels.ThkBaseCpt

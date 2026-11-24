@@ -12,7 +12,7 @@ public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.Tra
 public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeylFormulaStandardUnitaryGroupWeilDatum
 import Development.AbelianVarietyTheory.Proofs.HeightProofs.EmbeddingXiZeroNeZero
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasDerivAtAndIsTheta
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.EisPoleLEZeroOfLt
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.EisPoleLEZeroOfLt
 import Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.InfFam
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

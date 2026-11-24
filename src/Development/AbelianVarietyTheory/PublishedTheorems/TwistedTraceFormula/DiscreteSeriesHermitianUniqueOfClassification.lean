@@ -1,7 +1,7 @@
 module
 
 public import Formalism.LocalToGlobal.IndefiniteReal.ScalarOnPartsFull
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqUniqueOfClassification
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.DiscreteSeriesUpqUniqueOfClassification
 public import Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BlattnerShiftsSignedParameters
 public import Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti
 import Mathlib.Algebra.Order.Floor.Extended

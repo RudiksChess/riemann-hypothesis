@@ -2,7 +2,7 @@ module
 
 import Mathlib.AlgebraicGeometry.AffineScheme
 public import Development.ResolutionOfSingularities.Statements
-public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.NotSubsetOfDenseCompl
+public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry2.NotSubsetOfDenseCompl
 public import Development.ResolutionOfSingularities.EmbeddedResolution.EtaleCoordinates.ChartRing
 public import Development.ResolutionOfSingularities.EmbeddedResolution.EtaleCoordinates.CoordinatePolynomialRing
 public import Development.ResolutionOfSingularities.EmbeddedResolution.EtaleCoordinates.CoordinateDivisorRadical

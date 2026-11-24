@@ -1,8 +1,8 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsSpanFormsNeBot
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.GelfandKazhdanDual
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ExistsSpanFormsNeBot
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.GelfandKazhdanDual
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.PolarizedPairBaseChangePolarizedSameWeight
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

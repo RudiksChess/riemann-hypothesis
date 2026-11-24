@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.IsTemperedGLOfIsUnitaryLSeg
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.IsTemperedGLOfIsUnitaryLSeg
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.RealCusp
 public import Mathlib.RepresentationTheory.Homological.GroupCohomology.Basic
 import Mathlib.Algebra.Order.Floor.Extended

@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
 public import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SatakeParameterSphericalProductSpehQuotients
 import Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFixedIff
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsUniqueIsContr

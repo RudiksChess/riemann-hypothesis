@@ -2,7 +2,7 @@ module
 
 public import Formalism.LocalRingCardinality.DataAmbForm
 public import Formalism.LocalRingCardinality.DataDIV
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

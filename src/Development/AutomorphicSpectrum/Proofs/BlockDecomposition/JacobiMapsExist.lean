@@ -2,7 +2,7 @@ module
 
 public import Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.ThetaIdempotents.MapsExist
 public import Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteAnnihilatorOpenSubgroupInBox
-public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.AdelicConjTransposeBlockMatrixTwoByTwoFin
+public import Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil2.AdelicConjTransposeBlockMatrixTwoByTwoFin
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ContinuousHermPart
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

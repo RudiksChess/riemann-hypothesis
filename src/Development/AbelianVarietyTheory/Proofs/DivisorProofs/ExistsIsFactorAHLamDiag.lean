@@ -51,7 +51,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Tactic.Polynomial.Basic
 import Mathlib.Tactic.ReduceModChar
 import Std.Tactic.BVDecide.Normalize.BitVec
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsHolFormConst
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsHolFormConst
 
 @[expose] public section
 

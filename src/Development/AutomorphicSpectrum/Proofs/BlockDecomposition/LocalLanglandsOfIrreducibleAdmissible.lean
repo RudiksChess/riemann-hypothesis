@@ -1,7 +1,7 @@
 module
 
 public import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.ZelevinskyJacquet.ZelevinskyCosocles.GKLocal
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IrreducibleAdmissibleGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IrreducibleAdmissibleGL
 public import Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.WeilTensorLiftConclusion
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.EquivContra
 import Mathlib.Algebra.Order.Floor.Extended

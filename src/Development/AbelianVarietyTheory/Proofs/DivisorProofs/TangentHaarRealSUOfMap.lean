@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EmbGLMemRealSU
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EmbGLMemRealSU
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContinuousMatExp
 public import Mathlib.Analysis.Matrix.Normed
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDensityOfImmersion

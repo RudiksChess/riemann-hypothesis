@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsQuotientMapToGSProd
 public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.Brauer
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsPrimitiveRootPow
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ExistsPrimitiveRootPow
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

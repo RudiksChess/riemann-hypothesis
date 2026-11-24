@@ -47,7 +47,7 @@ public import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership
 import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LocalPrimeGaloisActionPeriodT
 import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.InjPrimeTo
 import Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsAttachedHodge
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TrivialOnInertiaOfUnr
 
 @[expose] public section
 

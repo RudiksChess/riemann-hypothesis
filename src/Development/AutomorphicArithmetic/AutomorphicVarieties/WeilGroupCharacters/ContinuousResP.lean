@@ -2,7 +2,7 @@ module
 
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.UniversalOrdinaryDeterminantRing
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.HeightAndVanishing.DirichletPrimeToLPartMulLPowerPart
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HasExponentZeroIff
 public import Mathlib.RingTheory.AdicCompletion.Noetherian
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.AdTransfer
 import Mathlib.Algebra.Order.Floor.Extended
@@ -44,7 +44,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Compactness.Paracompact
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TrivialOnInertiaOfUnr
 public import GroundTheory.ProfiniteCohomology.RealPlaces.GSDefs
 public import Formalism.SharedLemmas.TotDiscQuot
 

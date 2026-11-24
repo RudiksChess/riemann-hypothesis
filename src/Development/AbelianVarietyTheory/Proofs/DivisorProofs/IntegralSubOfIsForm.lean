@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsTypeIsRealConst
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsTypeIsRealConst
 public import Development.AbelianVarietyTheory.Definitions.Divisors.ChartMeasApplyOfSubset
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueMeasUnivNeTopOfCompact
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.TopDegreeDensityPullbackEqNormSqDetMul

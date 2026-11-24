@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.OpenFns
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsGenericIffIsGenericFor
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsGenericIffIsGenericFor
 public import Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFiniteSupport
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

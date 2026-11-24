@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsConstAlongSingleton
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.CTSubmatrixMul
 public import Development.AbelianVarietyTheory.Definitions.Divisors.LocallyCompactUnipFlag
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviDecompositionGradedIsotropicFlag

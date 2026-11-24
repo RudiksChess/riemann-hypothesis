@@ -40,7 +40,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 import Formalism.SharpRestriction.CuspSpanNormBounds.CntPartners
 import Formalism.SharpRestriction.CuspSpanNormBounds.IsPrimitiveSub
 import Formalism.SharpRestriction.CuspSpanNormBounds.Point

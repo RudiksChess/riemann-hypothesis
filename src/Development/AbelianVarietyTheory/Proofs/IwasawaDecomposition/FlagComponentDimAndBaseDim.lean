@@ -38,7 +38,7 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MultOfNotMem
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.InterPolyProdSum
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.InterPolyProdSum
 
 @[expose] public section
 

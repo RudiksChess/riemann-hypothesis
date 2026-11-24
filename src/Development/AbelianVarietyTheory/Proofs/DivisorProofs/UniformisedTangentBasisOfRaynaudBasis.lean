@@ -45,7 +45,7 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.HasDefect
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap
 import Development.AbelianVarietyTheory.Definitions.Divisors.RigidForFan
 public import Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsInvDer
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.DenseInterior
 import Mathlib.Algebra.Azumaya.Basic
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 

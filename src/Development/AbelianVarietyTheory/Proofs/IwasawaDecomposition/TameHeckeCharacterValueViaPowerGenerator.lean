@@ -48,7 +48,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FixedCoefficientFieldInComplex
 import Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SmulCommClassGalIntegers
-import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.AlgebraMapNormOfBasisOneSqrt
+import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices2.AlgebraMapNormOfBasisOneSqrt
 
 @[expose] public section
 

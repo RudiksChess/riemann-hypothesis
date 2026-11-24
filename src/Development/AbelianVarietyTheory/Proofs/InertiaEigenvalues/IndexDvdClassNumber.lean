@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GlobalCore
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FiniteIndexUnitIdlSup
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsUniqueHcharOfFiniteOrder
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ExistsUniqueHcharOfFiniteOrder
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsRingClassHost
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IdeleCharacterTrivialOnLocalUnits
 import Mathlib.Algebra.Order.Floor.Extended

@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.EqZeroOfForallPowDvd
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqZeroOfCobOneEqZero
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EqZeroOfCobOneEqZero
 public import Mathlib.Algebra.Module.Projective
 public import Mathlib.RingTheory.AdicCompletion.Basic
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfFiniteProjectiveAlgebra

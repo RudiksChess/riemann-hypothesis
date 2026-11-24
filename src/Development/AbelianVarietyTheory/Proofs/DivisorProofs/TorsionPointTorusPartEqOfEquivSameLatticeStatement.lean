@@ -48,7 +48,7 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.GalRigidOfSurjectiv
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenOfIso
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HomExtNormalSt
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 
 @[expose] public section

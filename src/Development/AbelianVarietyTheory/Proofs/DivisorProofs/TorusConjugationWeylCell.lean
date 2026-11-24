@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GindikinKarpelevich
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.GindikinKarpelevich
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConvUAbsU
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

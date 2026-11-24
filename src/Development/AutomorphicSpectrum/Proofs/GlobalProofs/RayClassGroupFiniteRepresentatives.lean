@@ -1,7 +1,7 @@
 module
 
 public import Formalism.SharpRestriction.GlobalSchurBounds.ShortIntervalPrimes
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SiegelKlingenDeligneRibet
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.SiegelKlingenDeligneRibet
 public import Formalism.LocalToGlobal.GlobalTheory.GL2.TotallyComplexOfNoReal
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

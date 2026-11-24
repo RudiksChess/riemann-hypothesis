@@ -2,7 +2,7 @@ module
 
 public import Formalism.SharpRestriction.CuspSpanNormBounds.SArith
 public import Formalism.SharpRestriction.CuspSpanNormBounds.LocalDataRealPlace
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 import Mathlib.Algebra.AffineMonoid.Basic
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

@@ -1,7 +1,7 @@
 module
 
 import CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorDecompositionParameters
-public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries₂.Poulsen
+public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries2.Poulsen
 public import Formalism.HermitianCurvature.HermitianCurvatureProofs.ContinuousMulMt
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

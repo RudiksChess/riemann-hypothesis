@@ -3,7 +3,7 @@ module
 public import Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.GoodOrigin
 public import Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IntegralClosureHeightEqOneOfLiesOver
 public import Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.Birational
-public import Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.FarguesHodgeTate
+public import Development.AutomorphicSpectrum.PublishedTheorems.Algebra2.FarguesHodgeTate
 public import Development.AutomorphicSpectrum.Proofs.GeometryProofs.RootLinesWeightBoundOfFree
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

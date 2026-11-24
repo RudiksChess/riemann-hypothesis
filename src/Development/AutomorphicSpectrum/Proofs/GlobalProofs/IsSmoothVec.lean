@@ -1,6 +1,6 @@
 module
 
-public import Development.AutomorphicSpectrum.PublishedTheorems.Jets₂.IsPermissibleOfCentre
+public import Development.AutomorphicSpectrum.PublishedTheorems.Jets2.IsPermissibleOfCentre
 public import Formalism.LocalToGlobal.BesselHermitianTheta.TiedType
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

@@ -44,7 +44,7 @@ import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Separation.CompletelyRegular
 import Mathlib.Topology.Sheaves.Init
 import Std.Tactic.BVDecide.Normalize.Prop
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SiegelKlingenDeligneRibet
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.SiegelKlingenDeligneRibet
 
 @[expose] public section
 

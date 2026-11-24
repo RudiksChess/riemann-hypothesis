@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilRepresentationExists
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.WeilRepresentationExists
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsSplitChartOne
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.RamificationIdxEqOneOfIsSquare
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenKerOfContinuous

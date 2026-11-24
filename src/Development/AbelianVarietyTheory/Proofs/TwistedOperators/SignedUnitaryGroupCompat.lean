@@ -2,7 +2,7 @@ module
 
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.CartFrSgn
 public import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AdelicUnitaryTopology
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FiniteDimensionalCoeffSpan
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.FiniteDimensionalCoeffSpan
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

@@ -37,8 +37,8 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 public import Development.AbelianVarietyTheory.Definitions.Foundations.T2SpaceTensorProductFiniteExtension
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsConstAlongSingleton
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 
 @[expose] public section
 

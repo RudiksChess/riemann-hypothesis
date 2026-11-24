@@ -1,8 +1,8 @@
 module
 
 public import Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ZeroSectionBase
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsCrystalPairing
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.ExistsCrystalPairing
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.CubeTheorem
 public import Development.AbelianVarietyTheory.Proofs.ModuliProofs.IsIsoFibreOfPullback
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeIsIsoOfMonoSameDimension
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdditiveLiftIff

@@ -38,7 +38,7 @@ import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotBas
 import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PositionOfIntro
 import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StrictHenselianAcyclic
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FunKilled
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.LocalLanglandsGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.LocalLanglandsGL
 
 @[expose] public section
 

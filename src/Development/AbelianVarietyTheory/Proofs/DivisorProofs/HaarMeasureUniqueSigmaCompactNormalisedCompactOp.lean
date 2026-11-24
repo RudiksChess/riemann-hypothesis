@@ -45,7 +45,7 @@ import Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurable
 import Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemShellUIffDepth
 import Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasBoundedSumsOne
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GindikinKarpelevich
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.GindikinKarpelevich
 public import Mathlib.MeasureTheory.Measure.Haar.Unique
 
 @[expose] public section

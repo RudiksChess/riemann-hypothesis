@@ -40,8 +40,8 @@ import Mathlib.Tactic.NormNum.Parity
 import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.CohDimTwoLocalOfLocalFiniteness
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.CohDimTwoLocalOfLocalFiniteness
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.PoitouTateNineTermTransgressionZeroApply
 import Development.WeilBound.CoreStatements.TemperedRepresentationTheory.PairSums.SumPair
 
 @[expose] public section

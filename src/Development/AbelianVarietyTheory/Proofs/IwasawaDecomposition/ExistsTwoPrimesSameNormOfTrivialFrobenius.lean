@@ -46,7 +46,7 @@ import Mathlib.Tactic.Polynomial.Basic
 import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FixedCoefficientFieldInComplex
-import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.AlgebraMapNormOfBasisOneSqrt
+import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices2.AlgebraMapNormOfBasisOneSqrt
 import Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf
 public import Mathlib.RingTheory.DedekindDomain.Factorization
 

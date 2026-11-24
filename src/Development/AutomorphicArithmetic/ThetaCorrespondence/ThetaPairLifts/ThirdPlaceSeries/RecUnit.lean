@@ -2,7 +2,7 @@ module
 
 public import Development.AutomorphicArithmetic.Foundations.LocalLanglands.IsRecTOfIsRec
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.BlockSplitAll
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FixedNeBotOfEquiv
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.FixedNeBotOfEquiv
 public import Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsRecLawsSuppUnitSurj
 public import Development.AutomorphicArithmetic.Foundations.UnitarySphericalFixing.SatakeParameters.AbsCentralAlt
 import Mathlib.Algebra.Order.Floor.Extended

@@ -54,7 +54,7 @@ import Mathlib.Tactic.Polynomial.Basic
 import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAHOfIsFactorAH
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsHolFormConst
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsHolFormConst
 public import Mathlib.Analysis.Calculus.FDeriv.Add
 public import Mathlib.Analysis.Calculus.FDeriv.Mul
 public import Mathlib.Analysis.Complex.Liouville

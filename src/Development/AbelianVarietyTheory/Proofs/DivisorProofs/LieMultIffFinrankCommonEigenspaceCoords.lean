@@ -47,7 +47,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.FirstCohomologyVanishesSpecOfIsLocalRing
 import Development.AbelianVarietyTheory.Definitions.Degenerations.ExistsGenPullTriv
 import Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueTorusCompat
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HenselianLocalRingOfIsAdicComplete
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HenselianLocalRingOfIsAdicComplete
 
 @[expose] public section
 

@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.HasExponentZeroIff
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFixedIff
 public import Development.DiscreteGroups.GlobalIrreducibility.DzApprox
 public import Development.DiscreteGroups.GlobalIrreducibility.DzNormV

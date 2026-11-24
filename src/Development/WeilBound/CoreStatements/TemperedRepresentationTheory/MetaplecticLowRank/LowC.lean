@@ -42,7 +42,7 @@ import Mathlib.Tactic.NormNum.Prime
 import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ExistsReadingLaws
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.MoyPrasadJacquetIsoTrivial
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.MoyPrasadJacquetIsoTrivial
 
 @[expose] public section
 

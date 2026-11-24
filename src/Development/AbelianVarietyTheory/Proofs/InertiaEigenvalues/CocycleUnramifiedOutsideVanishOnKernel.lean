@@ -47,8 +47,8 @@ import Mathlib.Tactic.ReduceModChar
 import Mathlib.Topology.Connected.Separation
 import Mathlib.Topology.Separation.CompletelyRegular
 import Mathlib.Topology.Sheaves.Init
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousCycMod
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ContinuousCycMod
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.PoitouTateNineTermTransgressionZeroApply
 
 @[expose] public section
 

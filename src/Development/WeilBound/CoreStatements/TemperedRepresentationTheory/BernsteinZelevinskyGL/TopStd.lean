@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.StandardFunctorsFiniteLength
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.StandardFunctorsFiniteLength
 public import Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HasFiniteLengthOfIsIrreducible
 public import Development.AutomorphicSpectrum.Proofs.GlobalProofs.JacquetModuleFiniteLength
 public import Development.AutomorphicSpectrum.Proofs.GlobalProofs.ParabolicInductionFiniteLength

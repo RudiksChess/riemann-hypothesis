@@ -1,6 +1,6 @@
 module
 
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.ConclusionFinite
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.ConclusionFinite
 public import Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ThetaMod
 import Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HeckeCharacterUnramifiedAeAndExistsLevel
 import Mathlib.Algebra.Order.Floor.Extended

@@ -50,7 +50,7 @@ import Development.AbelianVarietyTheory.Definitions.Divisors.FromBase
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap
 import Development.AbelianVarietyTheory.Definitions.Divisors.IsUnimodMod
 public import Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ComparisonTorusInvariant
-import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
 import Mathlib.CategoryTheory.Monoidal.Opposite.Mon
 
 @[expose] public section

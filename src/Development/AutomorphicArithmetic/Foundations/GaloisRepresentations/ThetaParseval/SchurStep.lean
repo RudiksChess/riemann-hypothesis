@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
 public import Development.WeilBound.ThetaLifts.LatticeBasics.HodgeTateFromSandwich
 public import Development.WeilBound.ThetaLifts.LatticeBasics.PairsStable
 import Mathlib.Algebra.Order.Floor.Extended

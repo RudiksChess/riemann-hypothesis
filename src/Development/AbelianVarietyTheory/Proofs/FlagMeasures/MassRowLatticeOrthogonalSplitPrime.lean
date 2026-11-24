@@ -2,7 +2,7 @@ module
 
 public import Formalism.SharpRestriction.CuspSpanNormBounds.CntPartners
 public import Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassGenusCyclicDiscriminantSplitPrime
-public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary₂.MaxMass
+public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary2.MaxMass
 public import Development.AbelianVarietyTheory.Proofs.FlagMeasures.MaximalHermitianLatticeMassRatio
 public import Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemOfPerpPerp
 public import Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ChartGen

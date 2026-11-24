@@ -46,7 +46,7 @@ import Mathlib.Tactic.ReduceModChar
 import Development.AbelianVarietyTheory.Definitions.Foundations.FinalTheorems
 import Development.AbelianVarietyTheory.Definitions.Foundations.IsLocallyConstantCycMod
 import Development.AbelianVarietyTheory.Definitions.Foundations.ShCocOn
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TrivialOnInertiaOfUnr
 import Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.Newform
 import Formalism.SharpRestriction.LevelLetterCocycles.LocCoh
 

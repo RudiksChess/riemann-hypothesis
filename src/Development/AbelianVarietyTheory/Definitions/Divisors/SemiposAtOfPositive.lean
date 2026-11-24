@@ -2,9 +2,9 @@ module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.IsLatBasisHtLatIffSpanEq
 public import Formalism.SharpRestriction.Divisibility.LatticeTransfer
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ToroidalChartsForFan
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ArBirational
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.SiegelToroidalIntegral
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ToroidalChartsForFan
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.ArBirational
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield
 import Mathlib.Algebra.Order.Interval.Basic

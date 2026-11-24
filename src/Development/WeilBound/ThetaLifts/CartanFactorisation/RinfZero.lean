@@ -1,7 +1,7 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HoweDualityReal
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HoweDualityUnitary
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HoweDualityReal
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HoweDualityUnitary
 public import Development.WeilBound.ThetaLifts.CartanFactorisation.CartanConj
 public import Development.WeilBound.CoreStatements.LocalThetaKernels.Locrep
 public import Development.WeilBound.ThetaLifts.CartanFactorisation.ExistsBeta

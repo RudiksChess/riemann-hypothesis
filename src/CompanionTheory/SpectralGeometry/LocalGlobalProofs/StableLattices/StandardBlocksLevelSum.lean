@@ -1,8 +1,8 @@
 module
 
 public import CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.Bdy
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsNormalisedOfIsDiscrete
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.IsNormalisedOfIsDiscrete
 import Development.AutomorphicArithmetic.IntegralCasts.IsOpenStabOfMemNhds
 
 @[expose] public section

@@ -48,7 +48,7 @@ import Mathlib.Tactic.NormNum.RealSqrt
 import Mathlib.Topology.Sheaves.Init
 import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.H1MapSubgroup
 import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTameInertiaElementAtTwistPrime
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousCycMod
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ContinuousCycMod
 import Formalism.SharpRestriction.LevelLetterCocycles.BlochKatoPhases
 import Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc
 
