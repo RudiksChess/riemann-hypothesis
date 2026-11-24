@@ -330,6 +330,74 @@ def merges(gh):
     return [payload["head"] for method, path, payload in gh.writes if path == "merges"]
 
 
+class ApiOutages(unittest.TestCase):
+    def test_transient_merge_failure_is_retried_after_recovery(self):
+        for status in (429, 500, 503, 504):
+            with self.subTest(status=status):
+                gh = Fake()
+                queue(gh, 11)
+                sync(gh)
+                queue(gh, 12)
+                call = gh.call
+
+                def unavailable(method, path, payload=None):
+                    if method == "POST" and path == "merges":
+                        return status, {"message": "unavailable"}
+                    return call(method, path, payload)
+
+                gh.call = unavailable
+                with self.assertRaises(batch.Refused):
+                    sync(gh)
+                self.assertEqual(gh.said(12), [])
+                self.assertEqual(gh.pulls[12]["labels"], {QUEUED})
+                gh.call = call
+                gh.writes = []
+                sync(gh)
+                self.assertEqual(merges(gh), [sha("head12")])
+
+    def test_permission_refusal_is_not_retried_as_an_outage(self):
+        gh = Fake()
+        queue(gh, 11)
+        sync(gh)
+        queue(gh, 12)
+        call = gh.call
+
+        def forbidden(method, path, payload=None):
+            if method == "POST" and path == "merges":
+                return 403, {"message": "forbidden"}
+            return call(method, path, payload)
+
+        gh.call = forbidden
+        sync(gh)
+        self.assertEqual(len(gh.said(12)), 1)
+        gh.call = call
+        gh.writes = []
+        sync(gh)
+        self.assertEqual(merges(gh), [])
+
+    def test_ambiguous_merge_failure_recovers_without_a_second_merge(self):
+        gh = Fake()
+        queue(gh, 11)
+        sync(gh)
+        queue(gh, 12)
+        call = gh.call
+
+        def lost_response(method, path, payload=None):
+            answer = call(method, path, payload)
+            if method == "POST" and path == "merges":
+                return 503, {"message": "response unavailable"}
+            return answer
+
+        gh.call = lost_response
+        with self.assertRaises(batch.Refused):
+            sync(gh)
+        gh.call = call
+        gh.writes = []
+        sync(gh)
+        self.assertEqual(merges(gh), [])
+        self.assertIn(f"- #12 at `{short('head12')}`", batch_pull(gh)["body"])
+
+
 class QueuedCommits(unittest.TestCase):
     """A batch takes the commit a maintainer queued, and nothing else."""
 

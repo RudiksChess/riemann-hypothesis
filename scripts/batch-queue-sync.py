@@ -877,6 +877,9 @@ def sync(gh, now=None):
             members.append((number, sha))
             log.append(f"{'would add' if gh.dry_run else 'added'} #{number} at `{sha[:10]}` to `{batch['ref']}`")
             continue
+        if status == 429 or 500 <= status < 600:
+            raise Refused(f"GitHub temporarily refused the merge of #{number} ({status}); "
+                          "stopped without recording a conflict. The next sync can try again.")
         on = (state["base"] or {}).get("number")
         if status != 409:
             reason = f"GitHub refused the merge ({status}: `{(data or {}).get('message', 'no reason given')}`)."
