@@ -20,8 +20,8 @@ not overruled, and one who puts it back asks for another look: it stays until th
 Reviews on pull requests from forks only get a read-only token, so the workflow cannot act on
 them as they are submitted. The sweep picks them up instead. It reads every open pull request
 through GraphQL, a few requests in all, whose allowance is separate from the REST one that the
-batch queue counts on. Before it puts a pull request in the inbox it reads that pull request
-again, so that a review or a close that came in meanwhile is not missed. Access is looked up
+batch queue counts on. Before changing an inbox label it reads that pull request
+again, so that a review, a close or a manual request for another review is not missed. Access is looked up
 through REST, once a run for each reviewer.
 """
 from __future__ import annotations
@@ -272,10 +272,10 @@ def sync(gh, number=None, event=None):
     for i, pr in enumerate(pulls):
         try:
             action, why = decide(gh, pr, event)
-            if action == "add" and number is None:
+            if action and number is None:
                 # The sweep read this pull request a while ago. A review, a close or a new label
-                # since then would otherwise be missed, and a review older than the label never
-                # counts again.
+                # since then would otherwise be missed. In particular, a maintainer may have
+                # put the label back for another review after the one in our snapshot.
                 pr = pulls[i] = gh.pull(pr["number"]) or pr
                 action, why = decide(gh, pr, event)
             if action:

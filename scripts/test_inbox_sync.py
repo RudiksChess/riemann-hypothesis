@@ -199,6 +199,20 @@ class Sweep(unittest.TestCase):
         sweep(gh)
         self.assertEqual(gh.writes, [("add", 1)])
 
+    def test_label_readded_during_the_sweep_stays_for_a_new_review(self):
+        gh = Fake([node(1, labels=[INBOX], events=[("on", INBOX, 1, BOT)],
+                        reviews=[("maint", 2)])], roles={"maint": "triage"})
+        gh.later[1] = node(1, labels=[INBOX], reviews=[("maint", 2)], events=[
+            ("on", INBOX, 1, BOT), ("off", INBOX, 3, BOT), ("on", INBOX, 4, "maint")])
+        sweep(gh)
+        self.assertEqual(gh.writes, [])
+
+    def test_marked_ready_during_the_sweep_stays_in(self):
+        gh = Fake([node(1, draft=True, labels=[INBOX])])
+        gh.later[1] = node(1, labels=[INBOX])
+        sweep(gh)
+        self.assertEqual(gh.writes, [])
+
     def test_review_that_lands_during_the_sweep_keeps_it_out(self):
         gh = Fake([node(1)], roles={"maint": "triage"})
         gh.later[1] = node(1, reviews=[("maint", 1)])
