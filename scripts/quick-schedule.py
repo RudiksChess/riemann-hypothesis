@@ -16,6 +16,20 @@ def gh(path):return json.loads(command(['gh','api',path]))
 def save(path,value):
  temporary=path.with_suffix('.partial');temporary.write_text(json.dumps(value,indent=2)+'\n');temporary.replace(path)
 
+def open_pulls():
+ query="""query($owner: String!, $name: String!, $endCursor: String) {
+  repository(owner: $owner, name: $name) {
+   pullRequests(states: OPEN, first: 25, after: $endCursor) {
+    nodes { number title headRefOid changedFiles additions deletions mergeable }
+    pageInfo { hasNextPage endCursor }
+   }
+  }
+ }"""
+ owner,name=REPO.split('/')
+ pages=json.loads(command(['gh','api','graphql','--paginate','--slurp',
+                           '-f','query='+query,'-f','owner='+owner,'-f','name='+name]))
+ return [pr for page in pages for pr in page['data']['repository']['pullRequests']['nodes']]
+
 def key(pr):return str(pr['number'])+':'+pr['headRefOid']
 
 def eligible(pr):
@@ -34,7 +48,7 @@ def main():
    save(a.state/'quota-wait.json',{'remaining':quota['remaining'],'reset_epoch':quota['reset'],'resume_epoch':quota['reset']+30})
    if a.once:return
    time.sleep(min(600,max(60,quota['reset']+30-time.time())));continue
-  prs=json.loads(command(['gh','pr','list','--repo',REPO,'--state','open','--limit','200','--json','number,title,headRefOid,changedFiles,additions,deletions,mergeable']))
+  prs=open_pulls()
   queue=[];deferred=[]
   for pr in sorted(prs,key=lambda row:(row['changedFiles'],row['additions']+row['deletions'],row['number'])):
    okay,reason=eligible(pr)
