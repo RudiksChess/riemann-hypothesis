@@ -78,7 +78,7 @@ def read(root, path):
 
 def members(text):
     """Names of the clump members recorded in a file (none if it is not a clump file)."""
-    return [l[len(SEAM_BEGIN):-len(SEAM_TAIL)] for l in text.split("\n")
+    return [l[len(SEAM_BEGIN):-len(SEAM_TAIL)] for l in text.replace("\r\n", "\n").split("\n")
             if l.startswith(SEAM_BEGIN) and l.endswith(SEAM_TAIL)]
 
 
@@ -116,6 +116,29 @@ def rewrite_header(lines, mapping, where):
 
 
 def rewrite(text, mapping, where):
+    """Rewrite module references while preserving line endings."""
+    if "\r\n" not in text:
+        return _rewrite_lf(text, mapping, where)
+
+    original_lines = text.split("\n")
+    normalized = text.replace("\r\n", "\n")
+    rewritten, count = _rewrite_lf(normalized, mapping, where)
+
+    if not count:
+        return text, count
+
+    lines = rewritten.split("\n")
+    if len(lines) != len(original_lines):
+        raise RuntimeError("Unexpected line count change")
+
+    for i in range(len(lines) - 1):
+        if original_lines[i].endswith("\r"):
+            lines[i] += "\r"
+
+    return "\n".join(lines), count
+
+
+def _rewrite_lf(text, mapping, where):
     """Rename modules in one file's text. Returns (new text, number of references changed)."""
     lines = text.split("\n")
     n = rewrite_header(lines, mapping, where)

@@ -171,6 +171,101 @@ class PortablePaths(unittest.TestCase):
         with self.assertRaises(SystemExit):
             t.run(pp.rename)
 
+    def _check_line_endings(self, separators):
+        """Check and rename clump members without changing line endings."""
+        import json
+
+        old = "A.Leaf\u2082"
+        new = "A.Leaf2"
+        hidden = "A.Hidden\u2082"
+        renamed_hidden = "A.Hidden2"
+        namespace = "A.Heights\u2082"
+
+        def lines(leaf, member):
+            header = json.dumps(
+                {"m": member, "h": "module\n\nimport " + leaf + "\n"},
+                ensure_ascii=False, separators=separators,
+            )
+            return [
+                "module",
+                "",
+                "import " + leaf,
+                "",
+                "-- Members: " + member + ", A.Top",
+                "-- ===== clump member: " + member + " =====",
+                "-- clump-header: " + header,
+                "namespace " + namespace,
+                "theorem sample : True := trivial",
+                "end " + namespace,
+                "-- ===== end clump member: " + member + " =====",
+            ]
+
+        before = lines(old, hidden)
+        after = lines(new, renamed_hidden)
+
+        cases = {
+            "LF": ["\n"] * len(before),
+            "CRLF": ["\r\n"] * len(before),
+            "mixed": [
+                "\r\n" if i % 2 else "\n"
+                for i in range(len(before))
+            ],
+            "no_final_newline": (
+                ["\r\n"] * (len(before) - 1) + [""]
+            ),
+        }
+
+        def render(content, endings):
+            return "".join(
+                line + ending
+                for line, ending in zip(content, endings)
+            ).encode("utf-8")
+
+        for name, endings in cases.items():
+            with self.subTest(line_endings=name):
+                t = Tree(self, {
+                    "A/Leaf\u2082": "module\n",
+                    "A/Top": "module\n",
+                    "A/Clean": "module\n",
+                })
+
+                root = Path(t.root, "src", "A")
+                top = root / "Top.lean"
+                clean = root / "Clean.lean"
+                old_file = root / "Leaf\u2082.lean"
+                new_file = root / "Leaf2.lean"
+
+                top.write_bytes(render(before, endings))
+                clean.write_bytes(b"module\r\n\r\n")
+                old_file.write_bytes(b"module\r\n")
+
+                code, out = t.run(pp.check)
+                self.assertEqual(code, 1)
+                self.assertIn(hidden, out)
+                self.assertIn(old, out)
+
+                self.assertEqual(t.run(pp.rename)[0], 0)
+                self.assertEqual(t.run(pp.check)[0], 0)
+
+                self.assertEqual(
+                    top.read_bytes(), render(after, endings)
+                )
+                self.assertFalse(old_file.exists())
+                self.assertEqual(
+                    new_file.read_bytes(), b"module\r\n"
+                )
+                self.assertEqual(
+                    clean.read_bytes(), b"module\r\n\r\n"
+                )
+
+
+    def test_crlf_line_endings(self):
+        self._check_line_endings(None)
+
+    def test_crlf_compact_json(self):
+        self._check_line_endings((",", ":"))
+
+
 
 if __name__ == "__main__":
     unittest.main()
