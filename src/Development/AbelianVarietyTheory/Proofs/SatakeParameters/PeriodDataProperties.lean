@@ -1,7 +1,7 @@
 module
 
 public import Formalism.SharpRestriction.LevelLetterCocycles.QuotientHomNonvanishingBound
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TateDualCrystalline
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.TateDualCrystalline
 
 @[expose] public section
 

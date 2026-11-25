@@ -2,7 +2,7 @@ module
 
 public import Formalism.LocalRingCardinality.DataAmbForm
 public import Formalism.LocalRingCardinality.DataDIV
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 
 @[expose] public section
 

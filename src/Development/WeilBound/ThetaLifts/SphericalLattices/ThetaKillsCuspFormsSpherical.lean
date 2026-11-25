@@ -5,7 +5,7 @@ public import Mathlib.Algebra.Module.LinearMap.Star
 public import Mathlib.Basic.Complex.Basic
 public import Mathlib.Analysis.InnerProductSpace.Defs
 public import Development.WeilBound.ThetaLifts.CartanFactorisation.UnitDef
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HoweDualityReal
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.HoweDualityReal
 public import Development.WeilBound.ThetaLifts.CartanFactorisation.ExistsBeta
 public import Development.WeilBound.ThetaLifts.CartanFactorisation.ActsComp
 public import Development.WeilBound.ThetaLifts.CartanFactorisation.Unimod

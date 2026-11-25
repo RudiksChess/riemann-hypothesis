@@ -5,7 +5,7 @@ public import Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerC
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsIntegralOfNormLeOne
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.RestrictionH1MemBlochKato
 import Mathlib.Tactic.Linter.HaveILetI
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousCycMod
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ContinuousCycMod
 
 @[expose] public section
 

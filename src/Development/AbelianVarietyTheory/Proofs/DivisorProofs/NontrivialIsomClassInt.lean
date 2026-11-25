@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqOfIsometricTrivShift
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EqOfIsometricTrivShift
 import ReciprocityTheory.L2DbarEstimates.LeviForms.DetUpdateColEq
 import ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.CmpaCHessComp
 import ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.CmpbHessAtAddConst

@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TauOneCharacter
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.TauOneCharacter
 public import Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsContinuousPadic
 public import Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.ExistsCellOfIsSubquotient
 public import Formalism.LocalToGlobal.NormalizedHeckeFactors.TypesDefs

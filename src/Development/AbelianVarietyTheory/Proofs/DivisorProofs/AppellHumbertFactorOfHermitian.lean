@@ -11,7 +11,7 @@ public import Development.AbelianVarietyTheory.Proofs.ToricGeometry.ReFormPosOfT
 public import Development.AbelianVarietyTheory.Proofs.ToricGeometry.SectionsPowEqThetaLevelChar
 import Development.AbelianVarietyTheory.Proofs.ToricGeometry.TopLePreimageOfValAtNeZero
 import Mathlib.Tactic.Linter.HaveILetI
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsHolFormConst
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsHolFormConst
 
 @[expose] public section
 

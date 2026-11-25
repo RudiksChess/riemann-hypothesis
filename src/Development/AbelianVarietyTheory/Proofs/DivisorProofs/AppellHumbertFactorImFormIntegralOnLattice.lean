@@ -3,7 +3,7 @@ module
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.AppellHumbertHomCompatible
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAHOfIsFactorAH
 import Mathlib.Tactic.Linter.HaveILetI
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsHolFormConst
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsHolFormConst
 import Development.AbelianVarietyTheory.Proofs.ToricGeometry.ReFormPosOfThetaNeZero
 
 @[expose] public section

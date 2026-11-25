@@ -1,6 +1,6 @@
 module
 
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 public import Mathlib.Data.FunLike.Fintype
 
 @[expose] public section

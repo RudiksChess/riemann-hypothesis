@@ -5,7 +5,7 @@ public import Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FiniteFreeHom
 public import Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSecImageNonzeroLocus
 public import Mathlib.RingTheory.Finiteness.ModuleFinitePresentation
 import Mathlib.Tactic.Linter.HaveILetI
-import Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.RegularHypothesesAndConclusion
+import Development.AutomorphicSpectrum.PublishedTheorems.Algebra2.RegularHypothesesAndConclusion
 
 @[expose] public section
 

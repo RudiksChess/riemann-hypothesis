@@ -3,7 +3,7 @@ module
 public import Development.AutomorphicSpectrum.Proofs.GlobalProofs.AbelContinuation
 import Mathlib.Tactic.Linter.HaveILetI
 import Std.Tactic.BVDecide.Normalize.Prop
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SiegelKlingenDeligneRibet
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.SiegelKlingenDeligneRibet
 
 @[expose] public section
 

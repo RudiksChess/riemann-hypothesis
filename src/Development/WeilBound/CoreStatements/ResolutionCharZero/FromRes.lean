@@ -2,7 +2,7 @@ module
 
 public import Development.ResolutionOfSingularities.Statements
 public import Development.WeilBound.CoreStatements.ResolutionCharZero.WeakPair
-public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.ConclusionOfSmooth
+public import Development.AutomorphicSpectrum.PublishedTheorems.Geometry2.ConclusionOfSmooth
 import Development.AutomorphicSpectrum.Proofs.GeometryProofs.ResKOfResolutionPrincipalisation
 public import Development.ResolutionOfSingularities.EmbeddedResolution.EtaleCoordinates.StrictNormalCrossingsNil
 public import Development.WeilBound.CoreStatements.ResolutionCharZero.FromResIso

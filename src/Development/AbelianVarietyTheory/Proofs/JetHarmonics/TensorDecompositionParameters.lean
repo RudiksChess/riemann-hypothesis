@@ -1,4 +1,4 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries₂.Poulsen
+public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries2.Poulsen
 public import Formalism.HermitianCurvature.HermitianCurvatureProofs.ContinuousMulMt

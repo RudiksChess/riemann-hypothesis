@@ -4,8 +4,8 @@ public import GroundTheory.ProfiniteCohomology.PoincareDuality.NsmulEqZeroOfNone
 public import GroundTheory.ProfiniteCohomology.RestrictedRamification.BaseDefs
 public import Mathlib.RingTheory.PicardGroup
 public import ReciprocityTheory.Hypotheses.GalCoh
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChevalleyUnits
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.ChevalleyUnits
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.PoitouTateNineTermTransgressionZeroApply
 
 @[expose] public section
 

@@ -1,8 +1,8 @@
 module
 
 public import Development.AbelianVarietyTheory.Proofs.HeightProofs.IsLieDataCircle
-public import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsIntMulIsIntegralOfTrace
-import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsShortOfTraceDet
+public import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices2.ExistsIntMulIsIntegralOfTrace
+import Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices2.ExistsShortOfTraceDet
 import Mathlib.Algebra.Module.StablyFree.Basic
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

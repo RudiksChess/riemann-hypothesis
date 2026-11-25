@@ -1,6 +1,6 @@
 module
 
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 public import Mathlib.Data.Nat.Prime.Factorial
 import Formalism.LocalRingCardinality.DataAmbForm
 import Formalism.SharpRestriction.GrowthBounds.WeilJacquetShalikaLaw

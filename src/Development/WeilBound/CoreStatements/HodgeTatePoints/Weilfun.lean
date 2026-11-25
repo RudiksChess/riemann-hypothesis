@@ -5,7 +5,7 @@ public import Development.WeilBound.CoreStatements.HodgeTatePoints.WeilfunCore
 import Mathlib.Tactic.Linter.HaveILetI
 import Mathlib.Tactic.Linter.Style
 import Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder
-import Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.FarguesHodgeTate
+import Development.AutomorphicSpectrum.PublishedTheorems.Algebra2.FarguesHodgeTate
 
 @[expose] public section
 

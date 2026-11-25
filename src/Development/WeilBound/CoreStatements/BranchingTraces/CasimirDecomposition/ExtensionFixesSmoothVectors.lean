@@ -2,7 +2,7 @@ module
 
 public import Development.WeilBound.CoreStatements.BranchingTraces.HeBranching
 public import CompanionTheory.AutomorphicTheory.ZuckermanCommutation.ZuckermanFunctors.IsSimpleFam
-public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries₂.Poulsen
+public import Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries2.Poulsen
 import Mathlib.Tactic.Linter.Style
 import Development.WeilBound.CoreStatements.BranchingTraces.CasimirDecomposition.CasApply
 

@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.WignerVanishingGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.WignerVanishingGL
 
 @[expose] public section
 

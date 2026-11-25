@@ -6,7 +6,7 @@ public import Mathlib.RingTheory.Flat.TorsionFree
 public import Mathlib.RingTheory.SimpleRing.Principal
 public import Mathlib.LinearAlgebra.Charpoly.ToMatrix
 import Development.AbelianVarietyTheory.Definitions.Divisors.SimpleTwistedTraceFormulaStable
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology2.BaseChangeDefiniteUnitary
 public import Mathlib.LinearAlgebra.Matrix.Charpoly.Minpoly
 public import Mathlib.RingTheory.Adjoin.PowerBasis
 

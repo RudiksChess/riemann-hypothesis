@@ -2,7 +2,7 @@ module
 
 public import Formalism.HermitianLattices.StatementLat
 public import Formalism.LocalRingCardinality.DataHost
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 import Formalism.SharpRestriction.CuspSpanNormBounds.CntPartners
 import Formalism.SharpRestriction.CuspSpanNormBounds.IsPrimitiveSub
 import Formalism.SharpRestriction.CuspSpanNormBounds.Point

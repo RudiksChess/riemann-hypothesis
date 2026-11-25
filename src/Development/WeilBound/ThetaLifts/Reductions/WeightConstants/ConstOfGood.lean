@@ -4,7 +4,7 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.ExistsIsHeckeLOfCom
 public import Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.NotIsCompactUnivFv
 public import Development.WeilBound.ThetaLifts.LatticeBasics.PairsStable
 public import Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeLEntireAndNonzeroAtOneHolds
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsCMTypeEmbedding
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsCMTypeEmbedding
 public import Development.WeilBound.ThetaLifts.LatticeBasics.ConstOfGood
 public import Development.WeilBound.ThetaLifts.LatticeBasics.GoodNe
 public import Development.WeilBound.ThetaLifts.Reductions.WeightConstants.Bridge

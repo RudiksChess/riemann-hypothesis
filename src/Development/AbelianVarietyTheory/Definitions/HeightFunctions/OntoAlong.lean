@@ -3,7 +3,7 @@ module
 public import Development.AbelianVarietyTheory.Definitions.HeightFunctions.RunsAlong
 public import Development.AbelianVarietyTheory.Statements.PlaceShiftStatements.SingleIndexPlacesAreTwisted
 public import Formalism.LocalToGlobal.IndefiniteReal.WeakCharacterisationWithError
-public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.LocalLanglandsGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms2.LocalLanglandsGL
 
 @[expose] public section
 

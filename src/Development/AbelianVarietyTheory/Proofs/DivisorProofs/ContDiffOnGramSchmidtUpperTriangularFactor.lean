@@ -5,7 +5,7 @@ public import Mathlib.Analysis.SpecialFunctions.Sqrt
 import Mathlib.Tactic.Linter.Style
 import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.DetSubUpper
 import Development.AbelianVarietyTheory.Proofs.DivisorProofs.PhaseFrame
-import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EmbGLMemRealSU
+import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.EmbGLMemRealSU
 
 @[expose] public section
 

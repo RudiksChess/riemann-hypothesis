@@ -3,7 +3,7 @@ module
 public import Mathlib.Algebra.BigOperators.Group.Multiset.Defs
 public import Mathlib.Basic.Complex.Basic
 public import Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MultisetSeparation
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.IsTemperedGLOfIsUnitaryLSeg
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.IsTemperedGLOfIsUnitaryLSeg
 import Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.WignerHighestWeights.IsAlgIsoRefl
 import Development.AutomorphicArithmetic.IntegralCasts.IsOpenStabOfMemNhds
 

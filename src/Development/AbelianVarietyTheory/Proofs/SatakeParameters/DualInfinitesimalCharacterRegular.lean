@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.WignerVanishingGL
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.WignerVanishingGL
 import Formalism.RealPlaceAnalysis.ThirdArithmeticHolds
 public import Mathlib.Analysis.Calculus.Deriv.Prod
 public import Mathlib.Analysis.Normed.Algebra.MatrixExponential

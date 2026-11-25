@@ -53,7 +53,7 @@ public import Development.WeilBound.ThetaLifts.LatticeBasics.ContinuousFlat
 public import Development.WeilBound.ThetaLifts.LatticeBasics.HypothesesS
 public import Development.WeilBound.ThetaLifts.LatticeBasics.SecondFromFirstStatement
 public import Development.WeilBound.ThetaLifts.LatticeBasics.SiegelWeilAnisoOf
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 public import Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.FinSplit
 public import Development.WeilBound.CoreStatements.LocallyConstantCoinvariants.RightOnto
 public import Development.WeilBound.ThetaLifts.SphericalLattices.HoweInert

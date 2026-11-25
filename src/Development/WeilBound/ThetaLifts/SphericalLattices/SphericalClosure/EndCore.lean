@@ -38,7 +38,7 @@ public import Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.Continuous
 public import Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.PresOfHat
 public import Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.VacShiftOf
 public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFockMap
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.IsSmoothModerateOfIsAutFunSm
 public import Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.FinSplit
 public import Development.WeilBound.CoreStatements.LocallyConstantCoinvariants.RightOnto
 public import Development.WeilBound.ThetaLifts.LatticeBasics.HypothesesS

@@ -1,7 +1,7 @@
 module
 
 public import Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SemisimpleLevels.AbW
-public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.CaraianiLocalGlobalDual
+public import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.CaraianiLocalGlobalDual
 public import Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Langlands
 import Mathlib.Algebra.Order.Floor.Extended
 import Mathlib.Algebra.Order.Floor.Semifield

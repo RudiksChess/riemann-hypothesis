@@ -1,7 +1,7 @@
 module
 
 public import Development.AbelianVarietyTheory.Definitions.Divisors.DivPowerCompatTwoFormDerivativeCompOneForm
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsUniqueIsConnOfLift
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.ExistsUniqueIsConnOfLift
 
 @[expose] public section
 

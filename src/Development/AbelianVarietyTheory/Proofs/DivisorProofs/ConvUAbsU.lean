@@ -1,6 +1,6 @@
 module
 
-public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GindikinKarpelevich
+public import Development.AbelianVarietyTheory.PublishedTheorems.Divisors2.GindikinKarpelevich
 
 @[expose] public section
 

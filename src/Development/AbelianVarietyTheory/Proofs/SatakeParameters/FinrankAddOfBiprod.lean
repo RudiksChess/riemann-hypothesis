@@ -2,7 +2,7 @@ module
 
 public import Formalism.WeaklyAdmissibleFiltrations.Statement
 import Mathlib.Tactic.Linter.HaveILetI
-import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TateDualCrystalline
+import Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry2.TateDualCrystalline
 import Formalism.FrobeniusOrbits.Statement
 
 @[expose] public section

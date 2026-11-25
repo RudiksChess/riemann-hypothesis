@@ -1,6 +1,6 @@
 module
 
-public import Formalism.LocalRingCardinality.DataParams₂
+public import Formalism.LocalRingCardinality.DataParams2
 import Formalism.ThickAverageLoss.PartnersToFactorsAt
 
 @[expose] public section
